@@ -1,7 +1,6 @@
 package com.example.test1;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
