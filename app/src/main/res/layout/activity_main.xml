@@ -6,6 +6,7 @@
     android:background="@drawable/introsky"
     android:orientation="vertical">
 
+    
     <ImageView
         android:id="@+id/ele"
         android:layout_width="match_parent"
