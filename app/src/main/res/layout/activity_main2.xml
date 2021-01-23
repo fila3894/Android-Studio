@@ -128,10 +128,7 @@
                     android:text="0" />
 
             </LinearLayout>
-
         </LinearLayout>
-
-
     </LinearLayout>
 
     <LinearLayout
