@@ -22,4 +22,5 @@
         android:background="#FFFFFF"
         android:text="  푸시 알림"
         android:textSize="20sp" />
+    
 </LinearLayout>
