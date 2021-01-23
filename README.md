@@ -1,2 +1,1 @@
-# Android-Studio 
-개인 공부
+Save-Us(Earth) 앱 프로토타입
