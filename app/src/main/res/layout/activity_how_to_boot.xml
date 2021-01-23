@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HowToBoot">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="도움말"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/fqaboottxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:gravity="center|left"
+        android:text="  사용량 확인은 어떻게 할 수 있나요?"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="26sp"
+        android:visibility="visible" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fqabootimg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/bulbcheck"
+                tools:srcCompat="@drawable/bulbcheck" />
+
+            <TextView
+                android:id="@+id/fqaboottxt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  1. 메인 화면 하단 가전제품 아이콘 들을 클릭합니다."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/fqabootimg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/bulbyes"
+                tools:srcCompat="@drawable/bulbyes" />
+
+            <TextView
+                android:id="@+id/fqaboottxt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  2. 예 버튼을 클릭합니다."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/fqabootimg3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/bulbno"
+                tools:srcCompat="@drawable/bulbno" />
+
+            <TextView
+                android:id="@+id/fqaboottxt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  3. 다시 한번 해당 가전제품을 클릭하여 아니오를 클릭합니다."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/fqabootimg4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/faqboot4"
+                tools:srcCompat="@drawable/faqboot4" />
+
+            <TextView
+                android:id="@+id/fqaboottxt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  4. 사용량 확인란에 변화된 수치를 확인합니다.
+                                \n\n\n\n\n\n\n\n\n\n"
+
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

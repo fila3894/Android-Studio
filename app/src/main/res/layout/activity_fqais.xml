@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fqais"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="도움말"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/fqaistextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:gravity="center|left"
+        android:text="  우리집 E.S.C 모바일 앱이란?"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fqaistextView2"
+                android:layout_width="match_parent"
+                android:layout_height="623dp"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  \n\n \n\    집에 있는 가전 제품들, 어떻게 관리하시나요?
+                                \n\n\n    우리집 E.S.C에서 편리하고 쉬운 방법으로 만나보세요 ! ★
+                                \n\n\n\n\n    #손으로 터치
+                                \n\n\n    누워서 간편하게 터치 한번으로 TV를 켜보세요.
+                                \n\n\n\n\n    #세대 정보
+                                \n\n\n    사용자 정보를 입력 후 정확한 세대별 요금을 확인해보세요.
+                                \n\n\n\n\n    #실시간 요금 측정
+                                \n\n\n    현재까지 소비된 전력량과 소비 금액을 한눈에 파악하세요."
+                android:textColor="#8F8686"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fqaprofile"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="도움말"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/fqaprofiletxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:gravity="center|left"
+        android:text="  사용자 지정은 어떻게 하나요?"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fqlprofileimg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fqaprofile"
+                tools:srcCompat="@drawable/fqaprofile" />
+
+            <TextView
+                android:id="@+id/fqaprofiletxt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  1. 메인화면 왼쪽 상단에 있는 사용자 이미지를 클릭하세요."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/fqlprofileimg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fqaprofile"
+                tools:srcCompat="@drawable/fqaprofile" />
+
+            <TextView
+                android:id="@+id/fqaprofiletxt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  2. 정보 입력버튼을 눌러주세요."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#000000" />
+
+            <ImageView
+                android:id="@+id/fqlprofileimg3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fqaprofile2"
+                tools:srcCompat="@drawable/fqaprofile2" />
+
+            <TextView
+                android:id="@+id/fqaprofiletxt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center|left"
+                android:text="  3. 정보 입력 후 확인 버튼을 눌러주세요.
+                                \n\n\n\n\n\n\n\n\n\n"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
