@@ -35,6 +35,7 @@ public class FQA extends AppCompatActivity {
             }
         });
 
+        
         HowToBoot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
