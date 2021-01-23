@@ -1,7 +1,6 @@
 package com.example.test1;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class PushActivity extends AppCompatActivity
